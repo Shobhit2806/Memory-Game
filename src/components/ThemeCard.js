@@ -28,7 +28,9 @@ const ThemeCard = ({type,imageWidth,onClick,active}) => {
             
             <div className="theme">
                 <div className="theme_img1" ><img src={ image } alt={type} width={imageWidth}/></div>
+                
             </div>
+    <div className="theme_animalname">{type}</div>
         </div>
     )
 }

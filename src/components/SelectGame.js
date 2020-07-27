@@ -49,16 +49,13 @@ const SelectGame = () => {
                     type='Pokemon'
                     imageWidth="80%"
                      active={active}
-                     onClick={()=>{
-                        setActive("Pokemon");
-                        console.log("POKEMONCALLED")
-                     }}
-                />
+                     onClick={()=>setActive("Pokemon")}
+                    />
                 <ThemeCard
                     type='Dogs'
-                    imageWidth="80%"
-                     active={active}
-                     onClick={()=>setActive("Dogs")}
+                    imageWidth="106.5%"
+                    active={active}
+                    onClick={()=>setActive("Dogs")}
                 />
                 </div>
                 <div className="boxg_contentbtn">

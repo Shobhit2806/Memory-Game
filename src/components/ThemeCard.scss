@@ -1,8 +1,12 @@
 .theme{
     display: flex;
-    justify-content: space-around;
+    align-content: space-between;
     
-    
+    &_animalname{
+        color: red;
+        position: absolute;
+        margin-left: 45px;
+    }
     &_container{
         
         width: 400px;
@@ -12,8 +16,9 @@
     &_img1{
         
         
-        border: 1px solid red;
+        position: relative;
         background-color: rgb(136, 253, 255);
+        border: 4px solid white;
         
     }
     
