@@ -14,6 +14,7 @@ import {
 import SelectGame from './SelectGame';
 import useTheme from '../useTheme'
 import {ThemeContext} from '../ThemeContext'
+import GamePage from './GamePage'
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
           <Route path='/' exact component={Welcomebox} />
           <Route path='/selectgame' component={SelectGame} />
           <Route path='/instructions' component={Instructions}/>
+          <Route path='/game' component={GamePage} />
           </Switch>
           </ThemeContext.Provider>
         </div>

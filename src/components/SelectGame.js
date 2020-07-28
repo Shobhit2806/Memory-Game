@@ -31,6 +31,10 @@ const SelectGame = () => {
     {
         history.push("/")
     }
+    function handleClick2()
+    {
+        history.push("/game")
+    }
     return (
         
         <div className="boxg_container">
@@ -62,7 +66,7 @@ const SelectGame = () => {
                 
                 <div className="boxg_btn">
                 <button  className="boxg_backbtn" onClick={handleClick}>Back</button>
-                <button  className="boxg_playbtn" onClick={handleClick}>Play</button>
+                <button  className="boxg_playbtn" onClick={handleClick2}>Play</button>
                 </div>
                
                 </div>
